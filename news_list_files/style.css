@@ -1,0 +1,20 @@
+p.doc-item a {
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: inline-block;
+	clear: both;
+}
+
+a[href$=".docx"] {
+	background: url("img/word.png") no-repeat;
+}
+
+a[href$=".pdf"] {
+	background: url("img/pdf.png") no-repeat;
+}
+
+a[href$=".xls"],
+a[href$=".xlsx"] {
+    background: url("img/exl.png");
+}
